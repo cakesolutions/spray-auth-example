@@ -15,8 +15,7 @@ After the server is running, point your browser to these routes:
 * ```http://0.0.0.0:8080/resource/better-customer?auth_token=customer```
 * ```http://0.0.0.0:8080/resource/better-admin?auth_token=admin```
 
-The last two are there just to show how to improve the code. (see
-```authentication.scala```.
+The last two are there just to show how to improve the code. (see ```authentication.scala```.)
 Try also to call the same routes but omitting the get parameter.
 Bear in mind that this is just to give you a gist, but Spray authentication
 mechanism is so flexible and powerful that it's up to you to decide how and
