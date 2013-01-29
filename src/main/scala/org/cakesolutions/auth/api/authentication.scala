@@ -34,8 +34,7 @@ trait AuthenticationDirectives {
   //bottleneck.
   def doAuthenticate(password: String): Future[Option[(Auth, Role)]]
 
-  /* We can insert here any kind of logic. As an example, we'll check
-   * that the user role is > 2, where 2 is customer.
+  /* We can insert here any kind of logic. 
    *
    * The return type is something you will could use inside your spray
    * routes. For the purpose of this example, we'll return only the
