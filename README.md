@@ -1,4 +1,3 @@
-
 ## Authentication example using Spray
 
 ### Documentation
@@ -28,7 +27,7 @@ use separate handlers just to better explain the workflow.
 By default, we're not aware of any caching mechanism embedded in Spray, because
 Spray is just a tiny, high performant layer above your app which gives you
 a flexible routing scheme and other goodies like tools for contacting external
-services etc, etc, so the caching it's something you can to provide. The better
+services etc, etc, so the caching it's something you have to provide. The better
 place to implement caching is probably in the ```AuthController```, calling
 a caching system (for example, you can use H2 to implement an in-memory
 caching, or Redis, or MongoDB, whatever).
